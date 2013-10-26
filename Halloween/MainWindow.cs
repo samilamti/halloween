@@ -26,7 +26,7 @@ namespace Halloween
 		void Initialize ()
 		{
 			BackgroundColor = NSColor.Black;
-			//ToggleFullScreen (this);
+			//ToggleFullScreen (this); <-- Doesn't work on my Mac Mini running Snow Leopard :(
 			SetFrame (Screen.Frame, true, true);
 			NSMenu.MenuBarVisible = false;
 		}
